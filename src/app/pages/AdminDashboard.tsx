@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import AdminNav from '../src/components/AdminNav';
+import AdminNav from '../../components/AdminNav';
 import { DollarSign, Users, ShoppingBag, TrendingUp, Mail } from 'lucide-react';
 
 export default function AdminDashboard() {
