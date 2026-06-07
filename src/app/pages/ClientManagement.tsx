@@ -27,7 +27,7 @@ export default function ClientManagement() {
     // Check if admin is logged in
     const authToken = localStorage.getItem('adminAuth');
     if (!authToken) {
-      navigate('/admin');
+      navigate('/login');
       return;
     }
 
