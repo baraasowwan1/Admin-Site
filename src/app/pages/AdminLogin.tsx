@@ -20,7 +20,7 @@ export default function AdminLogin() {
       if (username === 'admin' && password === 'admin123') {
         // Store auth token (in production, this would be a real JWT)
         localStorage.setItem('adminAuth', 'demo_token_' + Date.now());
-        navigate('/admin/dashboard');
+        navigate('/dashboard');
       } else {
         setError('Invalid username or password');
       }
@@ -104,9 +104,9 @@ export default function AdminLogin() {
           </form>
 
           <div className="mt-6 text-center">
-            <a href="/" className="text-blue-600 hover:text-blue-700 text-sm font-semibold">
-              ← Back to Website
-            </a>
+            <p className="text-gray-600 text-sm">
+              Standalone admin panel
+            </p>
           </div>
         </div>
 
