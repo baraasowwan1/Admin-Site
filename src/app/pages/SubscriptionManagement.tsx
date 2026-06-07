@@ -30,7 +30,7 @@ export default function SubscriptionManagement() {
     // Check if admin is logged in
     const authToken = localStorage.getItem('adminAuth');
     if (!authToken) {
-      navigate('/admin');
+      navigate('/login');
       return;
     }
 
