@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import AdminNav from '../src/components/AdminNav';
+import AdminNav from '../../components/AdminNav';
 import { Calendar, DollarSign, TrendingUp, AlertCircle, CheckCircle, XCircle } from 'lucide-react';
 
 interface Subscription {
