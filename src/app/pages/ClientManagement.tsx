@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import AdminNav from '../src/components/AdminNav';
+import AdminNav from '../../components/AdminNav';
 import { Search, Eye, Mail, Phone, Calendar, DollarSign } from 'lucide-react';
 
 interface Client {
